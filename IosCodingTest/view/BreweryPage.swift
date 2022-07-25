@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct BreweryPage: View {
-    @State var brewery = [StoreViewModel]()
+    @State var brewery = [StoreModel]()
     @State var dataApi = DataApi()
     var body: some View {
         VStack{

@@ -8,7 +8,6 @@
 import Foundation
 import SwiftUI
 struct DataApi{
-    var stores : [StoreViewModel]
     func getData(comp: @escaping ([StoreModel]) -> ()){
         guard let url = URL(string: "https://mocki.io/v1/214223dc-c8f4-4a2f-9749-8ce2f355d04f") else{
             return}
